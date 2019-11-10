@@ -1,0 +1,9 @@
+04.js
+var day = new Date();
+if(day.getDay() == 6 || day.getDay() == 0){
+    console.log('выходной')
+}else {
+    console.log('пора идти на работу')
+}
+var day = new Date();
+day = (day.getDay() == 6 || day.getDay() == 0) ? console.log('выходной') : console.log('пора идти на работу');
